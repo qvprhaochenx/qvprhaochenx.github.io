@@ -15,20 +15,7 @@
   --bg:#f0ebf8;--card:#fff;--blue:#1a73e8;
 }
 html,body{width:100%;min-height:100%;font-family:'Roboto','Noto Sans SC',sans-serif}
-html, body {
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-}
-#form-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(240, 235, 248); /* Google Form 经典的淡紫灰色 */
-    z-index: 9999;
-}
+
 
 /* ── PHASE 1 ── */
 #phase1{background:var(--bg);min-height:100vh;padding:20px 0 80px;position:relative;z-index:10}
